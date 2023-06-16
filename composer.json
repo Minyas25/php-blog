@@ -1,0 +1,21 @@
+{
+    "name": "yasmine/php-blog",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Yasmine",
+            "email": "yasmine.chaiboubi@outlook.fr"
+        }
+    ],
+    "require": {},
+    "config": {
+        "process-timeout": 0
+    }
+}
