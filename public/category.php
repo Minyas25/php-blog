@@ -51,6 +51,7 @@
                 echo '<ul>';
                 foreach ($articles as $article) {
                     echo '<li>' . $article->getName() . '</li>';
+                    echo "Description : " . $article->getDescription() . "<br> ";
                 }
                 echo '</ul>';
             } else {
